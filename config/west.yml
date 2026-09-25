@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: tako-config
+      url: https://github.com/ssbb/tako-config.git
+      revision: main
+      path: modules/tako-config
   self:
     path: config
